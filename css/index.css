@@ -1,3 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 p {
-    color: red;
+    text-align: justify;
+}
+
+h1 {
+    font-family: 'Times New Roman', serif;
+    font-size: 28px;
+    color: limegreen;
+}
+
+blockquote {
+    margin-left: 60px;
+}
+
+h2 {
+    font-family: 'Times New Roman', serif;
+    font-size: 22px;
+    color: limegreen;   
+}
+
+img {
+    width: 300px;
+    border: 8px solid limegreen;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#paragraph-important {
+    border: 3px solid limegreen;
+    padding: 10px;
+    background-image: url(../imagens/fundo.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: cover;
 }
