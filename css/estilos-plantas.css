@@ -1,19 +1,4 @@
-body {
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-p {
-    text-align: justify;
-}
-
-h1 {
-    font-family: 'Times New Roman', serif;
-    font-size: 28px;
-    color: limegreen;
-}
+@import url("estilos-comuns.css");
 
 blockquote {
     margin-left: 60px;
@@ -23,6 +8,10 @@ h2 {
     font-family: 'Times New Roman', serif;
     font-size: 22px;
     color: limegreen;   
+}
+
+q {
+    font-style: italic;
 }
 
 img {
